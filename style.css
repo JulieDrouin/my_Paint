@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gugi', cursive;
+}
+#blockTitle{
+    background-image: url('https://img.freepik.com/photos-gratuite/concept-decoration-sol-bois-naturel_53876-31866.jpg?size=626&ext=jpg');
+    background-attachment:fixed;
+}
+#title{
+    padding: 0;
+    width: 100%;
+}
+h1{
+    font-size: 3.5rem!important;
+}
+#blockOptions{
+    
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+    align-content: space-between;
+}
+#blockDraw{
+    display: inline-grid;
+    justify-content: center;
+    width: 100%;
+}
+#blockCanvas{
+    justify-content: center;
+}
+.btn{
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgb(245, 244, 243);
+}
+.btn:hover {
+    background-color: rgb(148, 146, 144);
+}
+#brush-size{
+    margin-top: -7px;
+}
+
+canvas{
+    padding: 0;
+    margin: 0;
+    width: 800px;
+    height: 500px;
+}
+container-fluid{
+    margin: 0;
+    padding: 0;
+}
